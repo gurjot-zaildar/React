@@ -1,0 +1,87 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  border-radius: 20px;
+  padding: 20px;
+}
+.card .top {
+  display: flex;
+  justify-content: space-between;
+}
+.card .top img {
+  height: 40px;
+  width: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  border: solid;
+  border-width: 1px;
+}
+.card .top button {
+  height: 25px;
+  border-radius: 8px;
+  border-width: 1px;
+  padding: 2px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  gap: 5px;
+}
+.card .middle {
+  margin-top: 30px;
+}
+.card .middle .cm {
+  display: flex;
+  gap: 20px;
+}
+.card .middle .cm h2 {
+  font-size: larger;
+}
+.card .middle .cm span {
+  margin-top: 6px;
+  opacity: 80%;
+}
+.card .middle h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.card .middle .bx {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+.card .middle .bx .ty {
+  background-color: rgb(203, 202, 202);
+  padding: 3px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+.card hr {
+  margin-top: 70px;
+}
+.card .bottom {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.card .bottom .lbx h1 {
+  font-size: 1.5rem;
+}
+.card .bottom button {
+  background-color: black;
+  color: aliceblue;
+  padding: 7px;
+  border-radius: 12px;
+  font-weight: 800;
+}

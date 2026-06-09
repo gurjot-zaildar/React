@@ -1,0 +1,21 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+    padding: 30px;
+}
+.cad{
+   margin-top: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+    
+}
+

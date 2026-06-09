@@ -1,0 +1,95 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.card{
+    background-color: white;
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    .top{
+        display: flex;
+        justify-content: space-between;
+        img{
+            height: 40px;
+            width: 40px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: solid;
+            border-width: 1px;
+        }
+        button{
+            height: 25px;
+            border-radius: 8px;
+            border-width: 1px;
+            padding: 2px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            gap: 5px;
+            
+            
+        }
+    }
+
+    .middle{
+        margin-top: 30px;
+        .cm{
+            display: flex;
+            gap: 20px;
+            h2{
+                font-size: larger;
+            }
+            span{
+                margin-top: 6px;
+                opacity: 80%;
+            }
+        }
+        h1{
+            font-size: 1.5rem;
+            font-weight: 900;
+            
+        }
+        .bx{
+            display: flex;
+            gap: 10px;
+            margin-top: 5px;
+
+            .ty{
+                
+                background-color: rgb(203, 202, 202);
+                padding: 3px;
+                border-radius: 5px;
+               font-size: 0.8rem;
+               }
+        }
+    }
+hr{
+    margin-top: 70px;
+}
+    .bottom{
+        display: flex;
+       margin-top: 10px;
+       justify-content: space-between;
+        .lbx{
+            h1{
+                font-size: 1.5rem;
+            }
+
+        }
+        button{
+            background-color: black;
+            color: aliceblue;
+            padding: 7px;
+            border-radius: 12px;
+            font-weight: 800;
+        }
+    }
+}
